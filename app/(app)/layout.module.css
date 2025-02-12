@@ -1,6 +1,8 @@
 .layout {
     display: flex;
-    gap: 100px;
+    justify-content: space-between;
+    max-width: 1440px;
+    gap: 300px;
 }
 .page {
     display: flex;
@@ -9,5 +11,8 @@
 
 .container {
     overflow-x: hidden;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
 }
 
